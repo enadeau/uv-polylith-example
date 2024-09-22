@@ -10,3 +10,6 @@ dependencies = []
 dev-dependencies = [
     "polylith-cli>=1.17.0",
 ]
+
+[tool.hatch.build]
+dev-mode-dirs = ["components", "bases", "development", "."]
