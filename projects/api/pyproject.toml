@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling", "hatch-polylith-bricks"]
+build-backend = "hatchling.build"
+
+[project]
+name = "api"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.6",
+]
+
+[tool.hatch.build.hooks.polylith-bricks]
+
+[tool.polylith.bricks]
+"../../bases/foo/api" = "foo/api"
