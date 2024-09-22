@@ -6,7 +6,8 @@ RUN uv export --no-emit-project --no-hashes > requirements.txt
 COPY components/ ./components
 COPY bases/ ./bases
 COPY projects/ ./projects
-RUN uv build --package api
+WORKDIR projects/api
+RUN uv build
 
 
 FROM python:3.12
