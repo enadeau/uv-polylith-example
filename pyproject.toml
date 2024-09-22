@@ -18,6 +18,9 @@ dev-dependencies = [
     "fastapi-cli>=0.0.5",
 ]
 
+[tool.uv.workspace]
+members = ["projects/*"]
+
 [tool.hatch.build]
 dev-mode-dirs = ["components", "bases", "development", "."]
 
