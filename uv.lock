@@ -152,16 +152,16 @@ wheels = [
 
 [[package]]
 name = "polylith-cli"
-version = "1.17.0"
+version = "1.18.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "rich" },
     { name = "tomlkit" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e0/c6/05542dcc6a981f0398a3aaacf5cf9bf977e35fd8f935bc4f28f7752b2f67/polylith_cli-1.17.0.tar.gz", hash = "sha256:260d7fcc9a3cdaa1f0854de3233bd1293e1e1e21abeaaa786a1cb447e8a28d4c", size = 29276 }
+sdist = { url = "https://files.pythonhosted.org/packages/4a/a3/ac0052f9e33118da44ccc17c7df5ff3d04d4c8881ff6edb348845cf3534c/polylith_cli-1.18.0.tar.gz", hash = "sha256:b71edbd4bd19de0a39de43bfa0eb7d2ad7a5cf0cd4714c34583f29cc840373a4", size = 29346 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/34/53/9aa731a5c4dd029ecb68d73ef5f1148b2d0aa0b0c898a7bfed9266232e5d/polylith_cli-1.17.0-py3-none-any.whl", hash = "sha256:9be7a6dbfc1d784313ca27b3521212c2dc743948fab30c6f3933a30e65a2bde9", size = 48992 },
+    { url = "https://files.pythonhosted.org/packages/ca/78/e88e2e94630a49644106d22cd7b505203dd4e00d6f830e162f317fc48a9c/polylith_cli-1.18.0-py3-none-any.whl", hash = "sha256:fa1f042194f2413c2ab22f57159d496e93fdb52ecf4436e8864a7c9c76a84803", size = 49064 },
 ]
 
 [[package]]
@@ -303,14 +303,14 @@ wheels = [
 
 [[package]]
 name = "starlette"
-version = "0.38.5"
+version = "0.38.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/13/aa/57975da16ca0c368bbb5687daa6ad79561c2328a44667a1d6802e94df3e5/starlette-0.38.5.tar.gz", hash = "sha256:04a92830a9b6eb1442c766199d62260c3d4dc9c4f9188360626b1e0273cb7077", size = 2569511 }
+sdist = { url = "https://files.pythonhosted.org/packages/42/b4/e25c3b688ef703d85e55017c6edd0cbf38e5770ab748234363d54ff0251a/starlette-0.38.6.tar.gz", hash = "sha256:863a1588f5574e70a821dadefb41e4881ea451a47a3cd1b4df359d4ffefe5ead", size = 2569491 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/90/1a/8853ba4cea1ec99535ac9be5795a50ca92cddd04d57bbaa56e866cb7548c/starlette-0.38.5-py3-none-any.whl", hash = "sha256:632f420a9d13e3ee2a6f18f437b0a9f1faecb0bc42e1942aa2ea0e379a4c4206", size = 71447 },
+    { url = "https://files.pythonhosted.org/packages/b7/9c/93f7bc03ff03199074e81974cc148908ead60dcf189f68ba1761a0ee35cf/starlette-0.38.6-py3-none-any.whl", hash = "sha256:4517a1409e2e73ee4951214ba012052b9e16f60e90d73cfb06192c19203bbb05", size = 71451 },
 ]
 
 [[package]]
